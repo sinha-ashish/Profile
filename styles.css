@@ -4,7 +4,7 @@ body {
   font-family: 'Merriweather', serif;
   color: #40514E;
   padding: 0;
-  background: #525252 ;
+  background: #A2A2A2 ;
 }
 
 
@@ -13,24 +13,25 @@ h1 {
   font-family: 'Clicker Script', cursive;
   font-size: 5.62em;
   font-style: normal;
-  color: #93d2d2;
+  color: #3c415e;
 }
 
 h2 {
   font-family: 'Noto Sans TC', sans-serif;
   font-size: 2.5rem;
-  color: #93d2d2;
-  padding-bottom: 10px;
+  color: #3c415e;
+  padding-bottom: 50px;
 }
 
 h3 {
   font-family: 'Noto Sans TC', sans-serif;
-  color: #40adb1;
+  color: #3c415e;
   text-decoration: none;
 }
 
+
 a {
-  color: #40adb1;
+  color: #e6d5b8;
   font-family: 'Noto Sans TC', sans-serif;
 }
 
@@ -46,21 +47,27 @@ p {
 }
 
 .Intro {
-  color: #c9d7d7;
+  color: #105e62;
 }
 
 .top-container {
-  /*background-color: #DDF7F8;*/
   position: relative;
-  padding-top: 100px;
+  padding-top: 60px;
   padding-bottom: 0px;
+  background-color: #e8e8e8;
 }
 
 .team {
   width: 296px;
   height: 400px;
   border-radius: 50%;
-  background-color: #16213e;
+  /*background-color: #1687a7;
+  background-color: #A2A2A2;
+  background-image: url('http://i.imgur.com/BiSmXaq.png'), url('http://i.imgur.com/XHuy0NJ.png'), url('http://i.imgur.com/okpRxJU.png');
+  -webkit-animation: snow 30s linear infinite;
+  -moz-animation: snow 30s linear infinite;
+  -ms-animation: snow 30s linear infinite;
+  animation: snow 30s linear infinite;*/
 }
 
 .midlle-container{
@@ -185,38 +192,38 @@ p {
 
 @-webkit-keyframes snow {
     0% { background-position: 0px 0px, 0px 0px, 0px 0px }
-    50% { background-color: #7d909c }
+    50% { background-color: #A2A2A2 }
     100% {
         background-position: 500px 1000px, 400px 400px, 300px 300px;
-        background-color: #16213e;
+        background-color: #A2A2A2;
     }
 }
 @-moz-keyframes snow {
     0% { background-position: 0px 0px, 0px 0px, 0px 0px }
-    50% { background-color: #7d909c }
+    50% { background-color: #A2A2A2 }
     100% {
         background-position: 500px 1000px, 400px 400px, 300px 300px;
-        background-color: #16213e;
+        background-color: #A2A2A2;
     }
 }
 @-ms-keyframes snow {
     0% { background-position: 0px 0px, 0px 0px, 0px 0px }
-    50% { background-color: #0a043c }
+    50% { background-color: #A2A2A2 }
     100% {
         background-position: 500px 1000px, 400px 400px, 300px 300px;
-        background-color: #16213e;
+        background-color: #A2A2A2;
     }
 }
 @keyframes snow {
     0% { background-position: 0px 0px, 0px 0px, 0px 0px }
-    50% { background-color: #0a043c }
+    50% { background-color: #A2A2A2 }
     100% {
         background-position: 500px 1000px, 400px 400px, 300px 300px;
-        background-color: #16213e;
+        background-color: #A2A2A2;
     }
 }
 body {
-    background-color: #0a043c;
+    background-color: #A2A2A2;
     background-image: url('http://i.imgur.com/BiSmXaq.png'), url('http://i.imgur.com/XHuy0NJ.png'), url('http://i.imgur.com/okpRxJU.png');
     -webkit-animation: snow 30s linear infinite;
     -moz-animation: snow 30s linear infinite;
@@ -227,8 +234,9 @@ body {
 .bottom-container {
   padding-bottom: 20px;
   padding-top: 20px;
-  background-color: #86003c;
-  color: #40adb1;
+  background-color: #082e73;
+  color: #e6d5b8;
+  opacity: 0.8;
 }
 
 .top-cloud {
@@ -280,7 +288,7 @@ body {
 }
 
 .footer-link {
-  color: #40adb1;
+  color: #e6d5b8;
   margin: 10px 20px;
   text-decoration: none;
 }
@@ -299,12 +307,12 @@ body {
 .closing {
   margin: 50px auto 40px;
   width: 40%;
-  color: #c9d7d7;
+  color: #414141;
 }
 
 .btn {
   box-shadow: 0 10px 14px -7px #276873;
-  background: linear-gradient(to bottom, #0e49b5 5%, #54e346 100%);
+  background: linear-gradient(to bottom, #515151 15%, #8a7f6e 100%);
   background-color: #0e49b5;
   border-radius: 8px;
   display: inline-block;
@@ -331,44 +339,51 @@ body {
 
 .attribution {
   font-size: 0.75rem;
-  color: #c9d7d7
+  color: #c9d7d7;
+  }
+.attribution-link {
+  color: #e6d5b8;
+}
+  .attribution-link:hover {
+    color: #EAF6F6
+  }
 }
 
 /*
  @-webkit-keyframes snow {
   /*0% { background-position: 0px 0px, 0px 0px, 0px 0px }
-    50% { background-color: #0a043c }
+    50% { background-color: #A2A2A2 }
     100% {
         background-position: 500px 1000px, 400px 400px, 300px 300px;
-        background-color: #16213e;
+        background-color: #1687a7;
     }
 }
 @-moz-keyframes snow {
   /*  0% { background-position: 0px 0px, 0px 0px, 0px 0px }
-    50% { background-color: #0a043c }
+    50% { background-color: #A2A2A2 }
     100% {
         background-position: 500px 1000px, 400px 400px, 300px 300px;
-        background-color: #16213e;
+        background-color: #1687a7;
     }
 }
 @-ms-keyframes snow {
   /*  0% { background-position: 0px 0px, 0px 0px, 0px 0px }
-    50% { background-color: #0a043c }
+    50% { background-color: #A2A2A2 }
     100% {
         background-position: 500px 1000px, 400px 400px, 300px 300px;
-        background-color: #16213e;
+        background-color: #1687a7;
     }
 }
 @keyframes snow {
   /*  0% { background-position: 0px 0px, 0px 0px, 0px 0px }
-    50% { background-color: #0a043c }
+    50% { background-color: #A2A2A2 }
     100% {
         background-position: 500px 1000px, 400px 400px, 300px 300px;
-        background-color: #16213e;
+        background-color: #1687a7;
     }
 }
 body {
-    background-color: #16213e;
+    background-color: #1687a7;
     background-image: url('http://i.imgur.com/BiSmXaq.png'), url('http://i.imgur.com/XHuy0NJ.png'), url('http://i.imgur.com/okpRxJU.png');
     -webkit-animation: snow 20s linear infinite;
     -moz-animation: snow 20s linear infinite;
